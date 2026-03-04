@@ -10,6 +10,15 @@ I'll add in detail at the end how this API can be improved and how this aligns t
 
 ---
 
+## Local Setup
+
+This repo runs on `uv`. Ignore the uv installation step in case it is already done.
+
+```
+pip install uv #uv installation
+uv run main.py
+```
+
 ## Service flow
 
 ```mermaid

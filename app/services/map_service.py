@@ -16,7 +16,7 @@ class MapService:
     }
 
     __llm_config = LLMConfig(
-        provider="gemini/gemini-2.0-flash-lite",
+        provider=getenv("MODEL", "gemini/gemini-2.0-flash-lite"),
         api_token=getenv("API_KEY")
     )
 
