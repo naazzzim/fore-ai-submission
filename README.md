@@ -80,6 +80,6 @@ Coming to our core problem of _User flow mapping_, our method uses an LLM to gen
 
 However, I feel that the given problem statement is a non-trivial problem of implementing an Unsupervised User Flow Extraction where the crawler has to branch out depending on various scenarios available on the given page analysing not only the hyperlinks but the buttons, inputs and forms. This also means that there can be more than one node/action item per page.
 
-I've considered (token based and basic) authentication and models for it has been created in `app/models/map.py`. They weren't used due to time constraint to experiment authentication.
+I've considered (token based and basic) authentication and models for it has been created in [app/models/map.py](app/models/map.py). They weren't used due to time constraint to experiment authentication.
 
 ---
