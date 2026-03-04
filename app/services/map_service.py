@@ -80,7 +80,6 @@ class MapService:
 
                 graph[current_url.url] = Node(
                     url=current_url.url, title=summary)
-                print("summary" + summary)
 
                 unvisisted_links = [
                     link for link in unique_links if link not in mentionedCount]
